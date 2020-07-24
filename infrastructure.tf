@@ -1,6 +1,5 @@
 provider "aws" {
   region  = "ap-southeast-2"
-  # version = "~> 1.60"
 }
 
 resource "aws_eip" "eips" {
